@@ -1,6 +1,6 @@
 package org.example;
 
-public class Products{
+public class Product{
 	private String image;
 	private Object price;
 	private Rating rating;
@@ -68,8 +68,8 @@ public class Products{
 	@Override
  	public String toString(){
 		return 
-			"Products{" + 
-			"image = '" + image + '\'' + 
+			"Products {" +
+			"image = '" + image + '\'' +
 			",price = '" + price + '\'' + 
 			",rating = '" + rating + '\'' + 
 			",description = '" + description + '\'' + 
